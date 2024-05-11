@@ -1,0 +1,19 @@
+.portfolioList{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.portfolioList li{
+    text-align: center;
+    width: 43%;
+    margin-left: 6%;
+    margin-right: 0%;
+    margin-top: 2%;
+}
+
+.title{
+    font-size: 400%;
+    margin: 0;
+    margin-left: 6%;
+    margin-top: 20%;
+}

@@ -1,0 +1,32 @@
+.profile{
+    text-align: center;
+    margin-top: 30%;
+    margin-left: 13%;
+}
+
+.profile h1{
+    text-align: left;
+    font-size: 350%;
+    margin-bottom: 0;
+}
+
+.profile h2{
+    text-align: left;
+    font-size: 200%;
+    margin-top: 0;
+    margin-left: 15%;
+    margin-bottom: 8%;
+}
+.profile p{
+    text-align: left;
+    font-size: 110%;
+}
+.profile img{
+    height: 300px;
+    width: 300px;
+    border-radius: 30px;
+    position: relative;
+    left: 22%;
+    top: -320px;
+    z-index: -1;
+}

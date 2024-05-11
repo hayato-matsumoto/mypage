@@ -1,0 +1,128 @@
+.plateHobby{
+    width: 500px;
+    padding: 1px;
+    border: 1px solid;
+    border-radius: 20px;
+    background-color: rgba(224, 211, 100, 0.308);
+    text-align: left;
+    padding-left: 4px;
+    height: 350px;
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
+}
+
+.plateHobby h1{
+    margin: 0;
+    margin-left: 3px;
+    margin-top: 0px;
+    height: 10px;
+    font-size: 20px;
+}
+
+.plateHobby h2{
+    height: 1px;
+    margin: 0;
+    margin-top: 11px;
+    margin-left: 3px;
+    margin-bottom: 3px;
+    font-size: 15px;
+}
+
+.plateHobby img {
+    width: 498px;
+    height: 300px;
+    margin-top: 2px;
+    margin-left: 0;
+    margin-right: 3px;
+    border-radius: 20px;
+}
+
+.overLay{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hobbyPopUpContents{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    width: 70%;
+    height: 70%;
+    border: 3px solid linen;
+    border-radius: 10px;
+}
+
+.hobbyPopUpContents h1{
+    font-size: 40px;
+    margin: 0;
+    margin-top: 5px;
+    margin-left: 8px;
+    text-align: left;
+    border-bottom: 1px solid;
+    border-color: rgba(0, 0, 0, 0.50);
+    height: 12%;
+}
+.hobbyPopUpContents button{
+    position: absolute;
+    top: 0.5%;
+    right: 0.5%;
+}
+
+.hobbyPopUpContents h3{
+    font-size: 25px;
+    text-align: left;
+    margin: 0;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+
+.hobbyPopUpContents p{
+    font-size: 15px;
+    text-align: left;
+    margin: 0;
+    margin-left: 5%;
+    margin-top: 2%;
+    height: 320px;
+    width: 350px;
+    white-space: pre-wrap;
+}
+
+.hobbyPopUpContents h4{
+    text-align: center;
+}
+
+.basketballAchieve{
+    width: 500px;
+    text-align: left;
+    margin-top: 0px;
+    padding-left: 0.5px;
+}
+
+.basketballAchieve li{
+    padding-top: 0.1px;
+    width: 300px;
+    text-align: left;
+}
+
+.basketballMainAchieve{
+    margin-bottom: 0.2px;
+}
+
+
+.hobbyPopUpContents img{
+    position: absolute;
+    top: 25%;
+    width: 48%;
+    height: 70%;
+    border-radius: 10px;
+}
+

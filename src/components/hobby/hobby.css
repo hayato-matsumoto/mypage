@@ -1,0 +1,18 @@
+.hobbyList{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.hobbyList li{
+    text-align: center;
+    width: 43%;
+    margin-left: 6%;
+    margin-right: 0%;
+    margin-top: 2%;
+}
+
+.title{
+    font-size: 400%;
+    margin: 0;
+    margin-left: 6%;
+}

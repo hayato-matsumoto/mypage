@@ -1,0 +1,24 @@
+.allOn{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 350;
+  color: white;
+  
+}
+html{
+  scroll-behavior: smooth; 
+  /* スムーススクロール */
+}
+
+.header1{
+  width: 100%;
+  top: 0;
+  position: fixed;
+  
+}
+
+.main1{
+  padding-top: 20%;
+  color: black;
+}
