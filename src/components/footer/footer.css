@@ -1,0 +1,11 @@
+.footer {
+    background-color: rgb(255, 255, 57);
+    height: 100px;
+    position: relative;
+}
+
+.footer h2{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

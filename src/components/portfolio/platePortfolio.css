@@ -75,6 +75,9 @@
     position: absolute;
     top: 0.5%;
     right: 0.5%;
+    font-size: 40px;
+    border: none;
+    background-color: white;
 }
 
 .portfolioPopUpContents h3{
@@ -89,10 +92,11 @@
     font-size: 15px;
     text-align: left;
     margin: 0;
-    margin-left: 20%;
+    margin-left: 5%;
     margin-top: 2%;
     height: 320px;
-    width: 100px;
+    width: 350px;
+    white-space: pre-wrap;
 }
 
 .portfolioPopUpContents img{

@@ -1,13 +1,15 @@
 .profile{
     text-align: center;
-    margin-top: 30%;
+    margin-top: 0%;
     margin-left: 13%;
+    padding-top: 100px;
 }
 
 .profile h1{
     text-align: left;
     font-size: 350%;
     margin-bottom: 0;
+
 }
 
 .profile h2{
@@ -28,5 +30,5 @@
     position: relative;
     left: 22%;
     top: -320px;
-    z-index: -1;
+    z-index: 1;
 }

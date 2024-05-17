@@ -29,7 +29,7 @@ import music2 from "../../images/music2.jpg"
 
 const Hobby = () => {
     return(
-        <div>
+        <div className="hobby">
         <h1 className="title">HOBBY</h1>
         <ul className="hobbyList">
            <li><PlateHobby photo1={basketball1} photo2={basketball2} title='バスケットバール' english='BASKET BALL'>　小学校3年間中学校3年間、高校3年間、大学4年間の計13年間バスケットボールをしていました。なんと人生の半分以上もバスケットボールをしていたらしいです。（笑）大きな身体を使ってゴール下やリバウンドを頑張りチームに貢献しました。3PTシュートは永遠にうまくなりませんでした。（泣）<h4 className="6">主な実績</h4><ul className="basketballAchieve"><li>中学、大学で副キャプテン</li><li>関西学生バスケットボール連盟二部に昇格</li><li>中2で神戸市オールスター選出</li></ul></PlateHobby></li>

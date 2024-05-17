@@ -1,3 +1,4 @@
+
 .plateHobby{
     width: 500px;
     padding: 1px;
@@ -75,6 +76,9 @@
     position: absolute;
     top: 0.5%;
     right: 0.5%;
+    font-size: 40px;
+    border: none;
+    background-color: white;
 }
 
 .hobbyPopUpContents h3{

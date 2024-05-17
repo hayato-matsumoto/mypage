@@ -1,6 +1,7 @@
 import React from "react";
 import "./plateHobby.css"
 import { useState,useEffect } from "react";
+import { TiDelete } from "react-icons/ti";
 
 
 const PlateHobby = (props) => {
@@ -24,7 +25,7 @@ const PlateHobby = (props) => {
                 <div className="hobbyPopUpContents">
                     {/* ポップアップの中身 */}
                     <h1>{props.title} </h1>
-                    <button onClick={toggleuseSharedStateHobby}>✕</button>
+                    <button onClick={toggleuseSharedStateHobby}><TiDelete /></button>
                     <h3>詳細</h3>
                     <p>{props.children}</p>
                     <img src={props.photo2} />
