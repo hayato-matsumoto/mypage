@@ -1,47 +1,76 @@
-.allOn{
+.allOn {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-weight: 350;
   color: white;
-  
 }
-html{
-  scroll-behavior: smooth; 
+
+html {
+  scroll-behavior: smooth;
   /* スムーススクロール */
 }
 
-.header1{
+.header1 {
   width: 100%;
   top: 0;
   position: fixed;
   z-index: 2;
 }
 
-.main1{
+.main1 {
   padding-top: 20%;
   color: black;
-  background-color:rgba(255,255,255,0.8);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
-.all{
+.all {
   background-image: url(./images/background.png);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  
-
 }
 
-@keyframes fadeIn {
+@keyframes scaleUp {
   from {
-    opacity: 0;
+    transform: scale(0.5);
   }
   to {
-    opacity: 1;
+    transform: scale(1);
   }
 }
 
-.fade-in {
-  animation: fadeIn 2s ease-in-out;
+.scale-up {
+  animation: scaleUp 1.5s ease-in-out;
+}
+
+/* レスポンシブデザイン */
+@media (max-width: 1200px) {
+  .main1 {
+    padding-top: 15%;
+  }
+
+  .all {
+    background-size: cover;
+  }
+}
+
+@media (max-width: 768px) {
+  .main1 {
+    padding-top: 10%;
+  }
+
+  .all {
+    background-size: cover;
+  }
+}
+
+@media (max-width: 480px) {
+  .main1 {
+    padding-top: 5%;
+  }
+
+  .all {
+    background-size: cover;
+  }
 }

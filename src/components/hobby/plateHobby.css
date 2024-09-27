@@ -1,5 +1,4 @@
-
-.plateHobby{
+.plateHobby {
     width: 500px;
     padding: 1px;
     border: 1px solid;
@@ -8,10 +7,10 @@
     text-align: left;
     padding-left: 4px;
     height: 350px;
-    box-shadow: 0 0 10px rgba(0,0,0,.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.plateHobby h1{
+.plateHobby h1 {
     margin: 0;
     margin-left: 3px;
     margin-top: 0px;
@@ -19,7 +18,7 @@
     font-size: 20px;
 }
 
-.plateHobby h2{
+.plateHobby h2 {
     height: 1px;
     margin: 0;
     margin-top: 11px;
@@ -37,18 +36,19 @@
     border-radius: 20px;
 }
 
-.overLay{
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    background-color:rgba(0,0,0,0.5);
+.overLay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.hobbyPopUpContents{
+
+.hobbyPopUpContents {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -62,7 +62,7 @@
     border-radius: 10px;
 }
 
-.hobbyPopUpContents h1{
+.hobbyPopUpContents h1 {
     font-size: 40px;
     margin: 0;
     margin-top: 5px;
@@ -72,7 +72,8 @@
     border-color: rgba(0, 0, 0, 0.50);
     height: 12%;
 }
-.hobbyPopUpContents button{
+
+.hobbyPopUpContents button {
     position: absolute;
     top: 0.5%;
     right: 0.5%;
@@ -81,7 +82,7 @@
     background-color: white;
 }
 
-.hobbyPopUpContents h3{
+.hobbyPopUpContents h3 {
     font-size: 25px;
     text-align: left;
     margin: 0;
@@ -89,7 +90,7 @@
     margin-top: 2%;
 }
 
-.hobbyPopUpContents p{
+.hobbyPopUpContents p {
     font-size: 15px;
     text-align: left;
     margin: 0;
@@ -100,29 +101,28 @@
     white-space: pre-wrap;
 }
 
-.hobbyPopUpContents h4{
+.hobbyPopUpContents h4 {
     text-align: center;
 }
 
-.basketballAchieve{
+.basketballAchieve {
     width: 500px;
     text-align: left;
     margin-top: 0px;
     padding-left: 0.5px;
 }
 
-.basketballAchieve li{
+.basketballAchieve li {
     padding-top: 0.1px;
     width: 300px;
     text-align: left;
 }
 
-.basketballMainAchieve{
+.basketballMainAchieve {
     margin-bottom: 0.2px;
 }
 
-
-.hobbyPopUpContents img{
+.hobbyPopUpContents img {
     position: absolute;
     top: 25%;
     width: 48%;
@@ -130,3 +130,84 @@
     border-radius: 10px;
 }
 
+/* レスポンシブデザイン */
+@media (max-width: 1200px) {
+    .plateHobby {
+        width: 400px;
+        height: 300px;
+    }
+
+    .plateHobby img {
+        width: 398px;
+        height: 250px;
+    }
+
+    .hobbyPopUpContents {
+        width: 80%;
+        height: 80%;
+    }
+
+    .hobbyPopUpContents p {
+        height: 280px;
+        width: 300px;
+    }
+
+    .hobbyPopUpContents img {
+        width: 45%;
+        height: 65%;
+    }
+}
+
+@media (max-width: 768px) {
+    .plateHobby {
+        width: 300px;
+        height: 250px;
+    }
+
+    .plateHobby img {
+        width: 298px;
+        height: 200px;
+    }
+
+    .hobbyPopUpContents {
+        width: 90%;
+        height: 90%;
+    }
+
+    .hobbyPopUpContents p {
+        height: 240px;
+        width: 250px;
+    }
+
+    .hobbyPopUpContents img {
+        width: 40%;
+        height: 60%;
+    }
+}
+
+@media (max-width: 480px) {
+    .plateHobby {
+        width: 200px;
+        height: 200px;
+    }
+
+    .plateHobby img {
+        width: 198px;
+        height: 150px;
+    }
+
+    .hobbyPopUpContents {
+        width: 95%;
+        height: 95%;
+    }
+
+    .hobbyPopUpContents p {
+        height: 200px;
+        width: 200px;
+    }
+
+    .hobbyPopUpContents img {
+        width: 35%;
+        height: 55%;
+    }
+}

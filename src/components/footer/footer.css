@@ -1,11 +1,50 @@
+/* footer.css */
+
 .footer {
     background-color: rgb(255, 255, 57);
     height: 100px;
     position: relative;
 }
 
-.footer h2{
+.footer h2 {
     position: absolute;
     bottom: 0;
     right: 0;
+}
+
+/* レスポンシブデザイン */
+@media (max-width: 1200px) {
+    .footer {
+        height: 80px;
+    }
+
+    .footer h2 {
+        font-size: 18px;
+        bottom: 10px;
+        right: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+        height: 60px;
+    }
+
+    .footer h2 {
+        font-size: 16px;
+        bottom: 8px;
+        right: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        height: 50px;
+    }
+
+    .footer h2 {
+        font-size: 14px;
+        bottom: 5px;
+        right: 5px;
+    }
 }

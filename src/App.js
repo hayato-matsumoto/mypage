@@ -12,9 +12,9 @@ function App() {
   }, []);
 
   return (
-    <div className={`all ${isLoaded ? 'fade-in' : ''}`}>
+    <div className="all">
       <header className='header1'><Header /></header>
-      <main className='main1'>
+      <main className={`main1 ${isLoaded ? 'scale-up' : ''}`}>
         <Home />
         <div id="about"><About /></div>
         <div id="hobby"><Hobby /></div>

@@ -1,24 +1,52 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap');
 
-.heading{
+.heading {
     text-align: center;
     color: black;
-    
     font-family: "Anton", sans-serif;
     font-weight: 400;
     font-style: normal;
-
 }
-.heading h1{
+
+.heading h1 {
     font-size: 100px;
     margin-top: 0px;
     margin-bottom: 5px;
 }
 
-.heading h3{
+.heading h3 {
     font-size: 30px;
     margin-top: 10px;
-    
+}
+
+/* レスポンシブデザイン */
+@media (max-width: 1200px) {
+    .heading h1 {
+        font-size: 80px;
+    }
+
+    .heading h3 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .heading h1 {
+        font-size: 60px;
+    }
+
+    .heading h3 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .heading h1 {
+        font-size: 40px;
+    }
+
+    .heading h3 {
+        font-size: 15px;
+    }
 }

@@ -1,9 +1,10 @@
-.portfolioList{
+.portfolioList {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
 }
-.portfolioList li{
+
+.portfolioList li {
     text-align: center;
     width: 43%;
     margin-left: 6%;
@@ -11,9 +12,49 @@
     margin-top: 2%;
 }
 
-.title{
+.title {
     font-size: 400%;
     margin: 0;
     margin-left: 6%;
     margin-top: 20%;
+}
+
+/* レスポンシブデザイン */
+@media (max-width: 1200px) {
+    .portfolioList li {
+        width: 48%;
+        margin-left: 4%;
+        margin-top: 3%;
+    }
+
+    .title {
+        font-size: 300%;
+        margin-top: 15%;
+    }
+}
+
+@media (max-width: 768px) {
+    .portfolioList li {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 4%;
+    }
+
+    .title {
+        font-size: 200%;
+        margin-top: 10%;
+    }
+}
+
+@media (max-width: 480px) {
+    .portfolioList li {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 5%;
+    }
+
+    .title {
+        font-size: 150%;
+        margin-top: 5%;
+    }
 }

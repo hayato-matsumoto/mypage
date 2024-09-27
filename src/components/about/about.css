@@ -1,29 +1,32 @@
-.profile{
+/* about.css */
+
+.profile {
     text-align: center;
     margin-top: 0%;
     margin-left: 13%;
     padding-top: 100px;
 }
 
-.profile h1{
+.profile h1 {
     text-align: left;
     font-size: 350%;
     margin-bottom: 0;
-
 }
 
-.profile h2{
+.profile h2 {
     text-align: left;
     font-size: 200%;
     margin-top: 0;
     margin-left: 15%;
     margin-bottom: 8%;
 }
-.profile p{
+
+.profile p {
     text-align: left;
     font-size: 110%;
 }
-.profile img{
+
+.profile img {
     height: 300px;
     width: 300px;
     border-radius: 30px;
@@ -31,4 +34,94 @@
     left: 22%;
     top: -320px;
     z-index: 1;
+}
+
+/* レスポンシブデザイン */
+@media (max-width: 1200px) {
+    .profile {
+        margin-left: 10%;
+        padding-top: 80px;
+    }
+
+    .profile h1 {
+        font-size: 300%;
+    }
+
+    .profile h2 {
+        font-size: 180%;
+        margin-left: 10%;
+    }
+
+    .profile p {
+        font-size: 100%;
+    }
+
+    .profile img {
+        height: 250px;
+        width: 250px;
+        left: 20%;
+        top: -280px;
+    }
+}
+
+@media (max-width: 768px) {
+    .profile {
+        margin-left: 5%;
+        padding-top: 50px;
+    }
+
+    .profile h1 {
+        font-size: 250%;
+        text-align: center;
+    }
+
+    .profile h2 {
+        font-size: 150%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .profile p {
+        font-size: 100%;
+        text-align: center;
+    }
+
+    .profile img {
+        height: 200px;
+        width: 200px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: -200px;
+    }
+}
+
+@media (max-width: 480px) {
+    .profile {
+        margin-left: 0;
+        padding-top: 30px;
+    }
+
+    .profile h1 {
+        font-size: 200%;
+        text-align: center;
+    }
+
+    .profile h2 {
+        font-size: 120%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .profile p {
+        font-size: 90%;
+        text-align: center;
+    }
+
+    .profile img {
+        height: 150px;
+        width: 150px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: -150px;
+    }
 }
